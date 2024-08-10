@@ -9,9 +9,9 @@
   <remote fetch="https://github.com/liuming50" name="ming"/>
 
   <project remote="oe" name="meta-openembedded" path="layers/meta-openembedded" revision="2338409efc51cf2022ff5610a9fb689251706e2b"/>
-  <project remote="yocto" name="poky" path="layers/poky" revision="6879650b927c96a2464224cdc2bed8245511cbf1"/>
+  <project remote="yocto" name="poky" path="layers/poky" revision="6ced2e7ca3b58130154035ad61685cd222909680"/>
   <project remote="yocto" name="meta-freescale" path="layers/meta-freescale" revision="1425fda62f7fa2f6bedaf0b2c41b2dae9ec1c3e7"/>
-  <project remote="nxp" name="meta-freescale-distro" path="layers/meta-freescale-distro" revision="a4efa17a9f6b25d8d9290dfee8275059d40b83df"/>
+  <project remote="nxp" name="meta-freescale-distro" path="layers/meta-freescale-distro" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345"/>
   <project remote="nxp" name="meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75"/>
   <project remote="completion" name="bitbake-bash-completion" path="layers/bitbake-bash-completion" revision="214778445289c63738e77cfb0c0900c2ac932c26"/>
   <project remote="ming" name="meta-mx6ullnand" path="layers/meta-mx6ullnand">
