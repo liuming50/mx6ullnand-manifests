@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="scarthgap"/>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="https://github.com/Freescale" name="nxp"/>
+  <remote fetch="https://github.com/sergioprado" name="completion"/>
+  <remote fetch="https://github.com/liuming50" name="ming"/>
+
+  <project remote="oe" name="meta-openembedded" path="layers/meta-openembedded"/>
+  <project remote="yocto" name="poky" path="layers/poky"/>
+  <project remote="yocto" name="meta-freescale" path="layers/meta-freescale"/>
+  <project remote="nxp" name="meta-freescale-distro" path="layers/meta-freescale-distro"/>
+  <project remote="nxp" name="meta-freescale-3rdparty" path="layers/meta-freescale-3rdparty"/>
+  <project remote="completion" name="bitbake-bash-completion" path="layers/bitbake-bash-completion"/>
+  <project remote="ming" name="meta-mx6ullnand" path="layers/meta-mx6ullnand">
+    <linkfile dest="oe-init-build-env" src="scripts/oe-init-build-env"/>
+    <linkfile dest="README.md" src="README.md"/>
+  </project>
+  <project remote="ming" name="yocto-docker-builder" path="docker">
+    <linkfile dest="setup" src="setup"/>
+  </project>
+</manifest>
